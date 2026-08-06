@@ -35,14 +35,17 @@ Priority:
 • MotherDuck
 • Health2Tech
 
-Always include:
+Return:
 
-• technical explanation
+• One technical sentence per update (what shipped / changed).
 
-followed by
+Then, once for the whole set (not per item):
 
-• plain-English explanation
-• practical use case
+• A short layman’s paragraph: how these updates connect to my world
+  (analytics engineering, clinical AI, creator tooling, or adjacent work),
+  how they connect to each other, or one idea worth taking from them.
+
+Keep Tool Updates tight. No multi-paragraph write-ups per product.
 
 Downgrade to Other Interest Reading if no actionable takeaway exists.
 
@@ -91,8 +94,11 @@ Sources:
 • Friday Forward
 • similar long-form reflective writing
 
-Write as something meant to be read,
-not skimmed.
+Write as something meant to be read, not skimmed.
+
+Keep short: about half a page max — roughly 2–4 short paragraphs
+(or ~150–250 words). Distill Nick Maggiulli / Friday Forward pieces;
+do not reprint or heavily paraphrase the whole essay.
 
 ---
 

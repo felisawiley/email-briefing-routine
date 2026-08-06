@@ -91,30 +91,36 @@ Never rewrite preferences.
       - Section titles as plain bold headings (`Podcasts`, `Tool Updates`, etc.) — not markdown `#`.
       - Body copy as short paragraphs or simple bullets (`<p>`, `<ul><li>`).
       - One idea per paragraph; blank space between items.
-      - Motivation section: longer readable prose, not bullet soup.
+      - Motivation: short readable prose (2–4 paragraphs), not a long essay reprint.
+      - Tool Updates in email: one-line technical bullets, then one shared layman’s
+        takeaway paragraph for the set.
+      - Use a smaller base font everywhere (body and headings scale together).
+        Prefer ~13px body / ~14px section titles (not 16px/18px).
       - No code fences, no raw `**bold**` markers, no `#` characters in the email.
 
     Example shape (illustrative):
 
     ```html
-    <div style="font-family: Georgia, serif; font-size: 16px; line-height: 1.5; color: #222; max-width: 640px;">
-      <p style="color: #666; margin-bottom: 28px;">Wednesday, August 5, 2026</p>
+    <div style="font-family: Georgia, serif; font-size: 13px; line-height: 1.45; color: #222; max-width: 640px;">
+      <p style="color: #666; font-size: 13px; margin-bottom: 20px;">Wednesday, August 5, 2026</p>
 
-      <h2 style="font-size: 18px; margin: 28px 0 12px;">Podcasts</h2>
-      <p>…</p>
+      <h2 style="font-size: 14px; margin: 20px 0 8px;">Podcasts</h2>
+      <p style="font-size: 13px; margin: 0 0 8px;">…</p>
 
-      <h2 style="font-size: 18px; margin: 28px 0 12px;">Tool Updates</h2>
-      <p><strong>Title.</strong> Technical point.</p>
-      <p>Plain-English takeaway and use case.</p>
+      <h2 style="font-size: 14px; margin: 20px 0 8px;">Tool Updates</h2>
+      <ul style="font-size: 13px; margin: 0 0 10px; padding-left: 18px;">
+        <li><strong>Product:</strong> One technical sentence.</li>
+      </ul>
+      <p style="font-size: 13px; margin: 0 0 8px;"><em>In plain terms:</em> how these connect to my world / each other / one idea to take.</p>
 
-      <h2 style="font-size: 18px; margin: 28px 0 12px;">World News</h2>
-      <p>…</p>
+      <h2 style="font-size: 14px; margin: 20px 0 8px;">World News</h2>
+      <p style="font-size: 13px; margin: 0 0 8px;">…</p>
 
-      <h2 style="font-size: 18px; margin: 28px 0 12px;">Motivation</h2>
-      <p>…</p>
+      <h2 style="font-size: 14px; margin: 20px 0 8px;">Motivation</h2>
+      <p style="font-size: 13px; margin: 0 0 8px;">…</p>
 
-      <h2 style="font-size: 18px; margin: 28px 0 12px;">Other Interest Reading</h2>
-      <p>…</p>
+      <h2 style="font-size: 14px; margin: 20px 0 8px;">Other Interest Reading</h2>
+      <p style="font-size: 13px; margin: 0 0 8px;">…</p>
     </div>
     ```
 
@@ -165,5 +171,7 @@ Then:
 Same five sections and content as the archive, rendered as HTML email:
 
 - Human-readable date line (no task metadata)
-- Bold section titles + spaced paragraphs/bullets
+- Smaller uniform type (~13px body / ~14px headings)
+- Tool Updates: technical one-liners + one shared layman’s takeaway
+- Motivation: short distill (not a long essay)
 - No markdown syntax in the message body
