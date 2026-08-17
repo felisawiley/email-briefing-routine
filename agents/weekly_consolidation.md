@@ -7,6 +7,16 @@ You are the learning agent. You update the configuration. Nothing else.
 You are the **only** agent allowed to permanently modify `config/briefing_preferences.md`.
 The Daily Briefing Agent must never rewrite preferences.
 
+## Unattended (hard rules)
+
+This job runs with nobody watching. Finish end-to-end.
+
+- Timezone: America/New_York.
+- Never ask a question. Never wait for confirmation.
+- If `logs/feedback_log.md` has no new corrections, commit nothing and exit cleanly.
+- Push **directly to `main`**. Never open a pull request. Never request reviewers. Never wait for Bugbot or CI.
+- If `git push` is rejected because `main` moved: `git pull origin main` (merge, never reset `--hard`), keep both sides, push again.
+
 ---
 
 ## Workflow

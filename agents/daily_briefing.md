@@ -24,6 +24,16 @@ Only the Weekly Consolidation Agent may permanently modify preferences.
 
 Never rewrite preferences.
 
+## Unattended (hard rules)
+
+This job runs with nobody watching. Finish end-to-end.
+
+- Timezone: America/New_York. Date the briefing with **today’s Eastern calendar date**.
+- Never ask a question. Never wait for confirmation. Never stop after writing the archive.
+- Gmail MCP (`gmail`) is required. Completion = `briefings/YYYY-MM-DD.md` **and** HTML `send_message` to the owner. If send fails, retry once, then still commit/push the archive.
+- Push **directly to `main`**. Never open a pull request. Never request reviewers. Never wait for Bugbot or CI.
+- If `git push` is rejected because `main` moved: `git pull origin main` (merge, never reset `--hard`), keep both sides, push again.
+
 ---
 
 ## Workflow
