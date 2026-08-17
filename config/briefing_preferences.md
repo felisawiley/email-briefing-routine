@@ -119,6 +119,17 @@ Only brief summaries.
 
 ---
 
+## Email Format
+
+Send HTML — not a raw markdown file.
+
+• Clear separate sections, spaced blocks, normal email typography
+• No `#` headings or markdown syntax in the message body
+• Smaller uniform type everywhere (body and headings scale together):
+  ~13px body / ~14px section titles
+
+---
+
 ## Sender Overrides
 
 (empty)
