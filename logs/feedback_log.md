@@ -52,3 +52,9 @@ Nothing about my calendar and nothing about flags — no calendar/schedule conte
 Remove Needs My Eyes from the briefing entirely — do not count, list, or mention those threads. Still leave them untouched in the inbox.
 
 ---
+
+2026-09-23
+
+Prevent scope creep structurally: closed allowlist, hard caps, banned patterns, omit non-fitting inbox leftovers, do not copy prior-archive density, weekly creep audit even when feedback log is empty.
+
+---

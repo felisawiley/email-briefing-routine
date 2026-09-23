@@ -53,34 +53,48 @@ This job runs with nobody watching. Finish end-to-end.
    - move
    - label
 
-4. Categorize everything else using the configuration.
+4. Categorize for **inbox handling** using the configuration.
 
-5. If a section requires current news, perform web search.
+   Only a small subset becomes briefing content. Leftovers that do not match the
+   allowlist are omitted from the briefing (they may still be organized).
+
+5. If a section requires current material that is allowed, search web if needed.
+   Do **not** search for World News.
 
 6. Generate Markdown briefing.
 
-   Required sections:
+   Required sections (and **only** these):
 
    - `# Podcasts`
    - `# Tool Updates`
    - `# Motivation`
    - `# Other Interest Reading`
 
-   Do **not** include World News (or AP wire digests).
+   Read `Anti–scope creep (hard)` in preferences and obey caps + bans.
 
-   Density (hard):
+   Density / anti-creep (hard):
 
    - This email **is** the briefing — keep it scannable on a phone.
-   - Prefer less. Cut “still stands” catalogs, cross-section duplicates, and inbox dumps.
-   - Podcasts: one sentence per **new** episode; metrics only if numbers changed;
-     never PausePoint / Architect of Calm.
-   - Tool Updates: strategist-level — which tool/LLM for what; one plain sentence per
-     **new** ship; no API IDs, token prices, bandwidth, CLI/eng how-to, or trailing
-     flag tags (Pricing / Privacy / API change).
-   - Other Interest Reading: only new reading/notes worth a brief bullet;
-     never PausePoint / AOC; never calendar, meetings, or event lists.
-   - Never include Needs My Eyes (no count, list, or mention).
+   - Closed allowlist: omit anything that does not fit; do not invent sections.
+   - Do **not** use prior `briefings/` files as a density or content template.
+   - Podcasts: ≤3 sentences; never PausePoint / Architect of Calm.
+   - Tool Updates: ≤5 strategist-level “use when…” bullets + ≤80-word takeaway;
+     no API/token/bandwidth specs; no trailing flag tags; no “still stands.”
+   - Motivation: ≤250 words.
+   - Other Interest Reading: ≤5 short McKinsey/consulting/finance bullets;
+     never calendar, PausePoint/AOC, or Needs My Eyes.
+   - Whole archive ≤ ~6,000 characters; cut OIR then Tool Updates if over.
+   - Never include World News or Needs My Eyes.
 
+6b. Pre-send self-check (must pass before save/email):
+
+   - [ ] Only the four allowed section headings
+   - [ ] No calendar / today-tomorrow-this-week / webinar lists
+   - [ ] No Needs My Eyes / PausePoint / AOC / World News
+   - [ ] No “still stands” catalogs or Pricing/Privacy/API flag tags
+   - [ ] Under caps above
+
+   If any check fails, cut until it passes. Prefer omit over compress-into-jargon.
 7. Save briefing to
 
    `/briefings/YYYY-MM-DD.md`
@@ -203,5 +217,6 @@ Same four sections and content as the archive, rendered as HTML email:
 - No calendar / schedule / meeting lists
 - No flag labels (Pricing / Privacy / API change tags)
 - No Needs My Eyes (leave those emails untouched in the inbox; never mention them in the briefing)
+- Obey Anti–scope creep caps; omit non-allowlist inbox leftovers
 - No markdown syntax in the message body
 - Scannable length — one morning read, not a second inbox

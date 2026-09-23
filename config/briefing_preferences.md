@@ -15,8 +15,40 @@ Prefer less. If a section feels like a second inbox, cut it.
 Do **not** include World News.
 Do **not** include calendar or schedule items.
 Do **not** include flag labels (Pricing / Privacy / API change tags, etc.).
+Do **not** include Needs My Eyes in the briefing.
 
+---
 
+## Anti–scope creep (hard)
+
+Closed briefing. Only these four sections exist. Do not invent a fifth.
+
+**Allowlist only.** If an inbox item does not clearly fit Podcasts, Tool Updates,
+Motivation, or Other Interest Reading (McKinsey / consulting / finance notes),
+**omit it from the briefing.** Organizing the inbox is not the same as briefing it.
+
+**Caps (enforce before send):**
+
+• Podcasts: ≤3 sentences total
+• Tool Updates: ≤5 new-ship bullets + 1 short takeaway paragraph (≤80 words)
+• Motivation: ≤250 words
+• Other Interest Reading: ≤5 short bullets
+• Whole archive: aim ≤6,000 characters; if over, cut OIR and Tool Updates first
+
+**Banned in the briefing (cut on sight):**
+
+• World News / AP wires
+• Calendar, schedule, meetings, webinars, “today / tomorrow / this week”
+• Needs My Eyes (any mention)
+• PausePoint / Architect of Calm
+• “still stands” standing catalogs
+• Trailing flag tags (Pricing / Privacy / API change / data-sharing)
+• Cross-section duplicates
+
+**Do not copy density from prior `briefings/` archives.** Section names only —
+yesterday’s dump is not a template.
+
+Default when unsure: **leave it out.**
 
 ---
 
@@ -78,7 +110,8 @@ Always watch (surface only if something new landed, still high level):
 • creator economy tooling
 • Dossier competitors
 
-Downgrade to Other Interest Reading if no actionable takeaway exists.
+Downgrade to Other Interest Reading only if it is McKinsey / consulting / finance
+reading with a brief takeaway — otherwise omit.
 
 ---
 
