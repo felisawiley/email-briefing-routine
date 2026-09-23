@@ -12,6 +12,9 @@ This email **is** the morning briefing. One scannable read should replace huntin
 
 Prefer less. If a section feels like a second inbox, cut it.
 
+Do **not** include World News.
+
+
 ---
 
 ## Standing Interests
@@ -76,19 +79,6 @@ Always watch (surface only if something new landed, still high level):
 • Dossier competitors
 
 Downgrade to Other Interest Reading if no actionable takeaway exists.
-
----
-
-### World News
-
-Label: World News
-
-Return:
-
-3–5 AP-style summaries.
-
-If a trusted news digest exists in the inbox,
-use that instead of searching.
 
 ---
 

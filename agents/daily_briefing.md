@@ -63,9 +63,10 @@ This job runs with nobody watching. Finish end-to-end.
 
    - `# Podcasts`
    - `# Tool Updates`
-   - `# World News`
    - `# Motivation`
    - `# Other Interest Reading`
+
+   Do **not** include World News (or AP wire digests).
 
    Density (hard):
 
@@ -109,7 +110,7 @@ This job runs with nobody watching. Finish end-to-end.
     - Convert the briefing into HTML with this structure:
 
       - Top line: date only (e.g. `Wednesday, August 5, 2026`) — no “Task:” metadata.
-      - Five sections, in order, each separated by clear vertical space (or a light horizontal rule).
+      - Four sections, in order, each separated by clear vertical space (or a light horizontal rule).
       - Section titles as plain bold headings (`Podcasts`, `Tool Updates`, etc.) — not markdown `#`.
       - Body copy as short paragraphs or simple bullets (`<p>`, `<ul><li>`).
       - One idea per paragraph; blank space between items and between bullets.
@@ -117,6 +118,7 @@ This job runs with nobody watching. Finish end-to-end.
       - Tool Updates in email: one plain “use it when…” bullet per **new** ship only, then
         one shared takeaway on which to pick; never API/pricing/bandwidth specs.
       - Other Interest Reading: short bullets only; no run-on paragraphs; no full Needs My Eyes dump.
+      - No World News section.
       - Aim for roughly half the length of a dense wall-of-text dump — if it scrolls like an inbox, cut.
       - Use a smaller base font everywhere (body and headings scale together).
         Prefer ~13px body / ~14px section titles (not 16px/18px).
@@ -136,9 +138,6 @@ This job runs with nobody watching. Finish end-to-end.
         <li><strong>Product:</strong> What it is and when you’d use it (no API/pricing specs).</li>
       </ul>
       <p style="font-size: 13px; margin: 0 0 8px;"><em>In plain terms:</em> which to pick for my work / which to ignore.</p>
-
-      <h2 style="font-size: 14px; margin: 20px 0 8px;">World News</h2>
-      <p style="font-size: 13px; margin: 0 0 8px;">…</p>
 
       <h2 style="font-size: 14px; margin: 20px 0 8px;">Motivation</h2>
       <p style="font-size: 13px; margin: 0 0 8px;">…</p>
@@ -179,10 +178,6 @@ Then:
 
 ...
 
-# World News
-
-...
-
 # Motivation
 
 ...
@@ -192,13 +187,14 @@ Then:
 
 ## Output Contract (email — HTML)
 
-Same five sections and content as the archive, rendered as HTML email:
+Same four sections and content as the archive, rendered as HTML email:
 
 - Human-readable date line (no task metadata)
 - Smaller uniform type (~13px body / ~14px headings)
 - Tool Updates: strategist-level “which LLM/tool for what” bullets + one shared takeaway (no API/token/bandwidth specs)
 - Motivation: short distill (not a long essay)
 - Other Interest Reading: brief time-sensitive bullets only
+- No World News
 - Needs My Eyes: count + ≤5 critical items (never a laundry list)
 - No markdown syntax in the message body
 - Scannable length — one morning read, not a second inbox

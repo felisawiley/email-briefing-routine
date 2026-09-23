@@ -28,3 +28,9 @@ Tool Updates should be higher level. Reader is a data strategist: need to know w
 Do not include PausePoint / Architect of Calm (AOC) — no episodes, metrics, guests, payouts, or show ops in Podcasts or Other Interest Reading.
 
 ---
+
+2026-09-23
+
+No World News section. Do not include AP wire digests or world news summaries.
+
+---
