@@ -33,6 +33,8 @@ One sentence per new episode. Metrics only when the number changed overnight.
 
 Label: Tool Updates
 
+Audience: data strategist — understand the landscape, not implement APIs.
+
 Priority:
 
 • Claude
@@ -43,22 +45,26 @@ Priority:
 • MotherDuck
 • Health2Tech
 
-Return:
+Return (high level only):
 
-• One technical sentence per **new** overnight ship (what changed).
+• One plain sentence per **new** overnight ship: what it is and **when you’d use it** (which LLM / tool for what).
 • Skip tools with nothing new. Do not restate “still stands” catalogs.
-• Once for the whole set: a short layman’s paragraph tying updates to my world.
+• Once for the whole set: a short paragraph on how these fit together for my work
+  (analytics strategy, clinical AI, creator tooling) — which to pick, which to ignore.
 
-Always flag when present on a **new** item:
+Never include:
 
-• pricing changes
-• API changes
-• licensing
-• new permissions
-• data-sharing defaults
-• privacy changes
+• API IDs, endpoints, parameter names, or migration/breaking-change checklists
+• token prices, cache tiers, bandwidth, latency percentiles, or throughput detail
+• CLI flags, config keys, or engineering how-to
 
-Always watch (surface only if something new landed):
+Do flag (one plain phrase, not a spec sheet) when it changes a decision:
+
+• big pricing shifts (“cheaper for long jobs”, “default model costs more”)
+• new permissions / data-sharing / privacy defaults
+• licensing that blocks a use case
+
+Always watch (surface only if something new landed, still high level):
 
 • analytics engineering / dbt / warehouses / pipelines
 • NLP / clinical AI

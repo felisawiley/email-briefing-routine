@@ -72,7 +72,8 @@ This job runs with nobody watching. Finish end-to-end.
    - This email **is** the briefing — keep it scannable on a phone.
    - Prefer less. Cut “still stands” catalogs, cross-section duplicates, and inbox dumps.
    - Podcasts: one sentence per **new** episode; metrics only if numbers changed.
-   - Tool Updates: one technical sentence per **new** overnight ship; skip quiet tools.
+   - Tool Updates: strategist-level — which tool/LLM for what; one plain sentence per
+     **new** ship; no API IDs, token prices, bandwidth, CLI flags, or eng how-to.
    - Other Interest Reading: only new or time-sensitive items; one short bullet each.
    - Needs My Eyes: count + at most 3–5 security/money/login items — never the full list.
 
@@ -111,8 +112,8 @@ This job runs with nobody watching. Finish end-to-end.
       - Body copy as short paragraphs or simple bullets (`<p>`, `<ul><li>`).
       - One idea per paragraph; blank space between items and between bullets.
       - Motivation: short readable prose (2–4 paragraphs), not a long essay reprint.
-      - Tool Updates in email: one-line technical bullets for **new** ships only, then one
-        shared layman’s takeaway paragraph for the set.
+      - Tool Updates in email: one plain “use it when…” bullet per **new** ship only, then
+        one shared takeaway on which to pick; never API/pricing/bandwidth specs.
       - Other Interest Reading: short bullets only; no run-on paragraphs; no full Needs My Eyes dump.
       - Aim for roughly half the length of a dense wall-of-text dump — if it scrolls like an inbox, cut.
       - Use a smaller base font everywhere (body and headings scale together).
@@ -130,9 +131,9 @@ This job runs with nobody watching. Finish end-to-end.
 
       <h2 style="font-size: 14px; margin: 20px 0 8px;">Tool Updates</h2>
       <ul style="font-size: 13px; margin: 0 0 10px; padding-left: 18px;">
-        <li><strong>Product:</strong> One technical sentence.</li>
+        <li><strong>Product:</strong> What it is and when you’d use it (no API/pricing specs).</li>
       </ul>
-      <p style="font-size: 13px; margin: 0 0 8px;"><em>In plain terms:</em> how these connect to my world / each other / one idea to take.</p>
+      <p style="font-size: 13px; margin: 0 0 8px;"><em>In plain terms:</em> which to pick for my work / which to ignore.</p>
 
       <h2 style="font-size: 14px; margin: 20px 0 8px;">World News</h2>
       <p style="font-size: 13px; margin: 0 0 8px;">…</p>
