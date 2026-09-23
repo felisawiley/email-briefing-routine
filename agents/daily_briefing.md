@@ -194,7 +194,7 @@ Same five sections and content as the archive, rendered as HTML email:
 
 - Human-readable date line (no task metadata)
 - Smaller uniform type (~13px body / ~14px headings)
-- Tool Updates: technical one-liners for new ships + one shared layman’s takeaway
+- Tool Updates: strategist-level “which LLM/tool for what” bullets + one shared takeaway (no API/token/bandwidth specs)
 - Motivation: short distill (not a long essay)
 - Other Interest Reading: brief time-sensitive bullets only
 - Needs My Eyes: count + ≤5 critical items (never a laundry list)
