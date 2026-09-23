@@ -67,6 +67,15 @@ This job runs with nobody watching. Finish end-to-end.
    - `# Motivation`
    - `# Other Interest Reading`
 
+   Density (hard):
+
+   - This email **is** the briefing — keep it scannable on a phone.
+   - Prefer less. Cut “still stands” catalogs, cross-section duplicates, and inbox dumps.
+   - Podcasts: one sentence per **new** episode; metrics only if numbers changed.
+   - Tool Updates: one technical sentence per **new** overnight ship; skip quiet tools.
+   - Other Interest Reading: only new or time-sensitive items; one short bullet each.
+   - Needs My Eyes: count + at most 3–5 security/money/login items — never the full list.
+
 7. Save briefing to
 
    `/briefings/YYYY-MM-DD.md`
@@ -100,10 +109,12 @@ This job runs with nobody watching. Finish end-to-end.
       - Five sections, in order, each separated by clear vertical space (or a light horizontal rule).
       - Section titles as plain bold headings (`Podcasts`, `Tool Updates`, etc.) — not markdown `#`.
       - Body copy as short paragraphs or simple bullets (`<p>`, `<ul><li>`).
-      - One idea per paragraph; blank space between items.
+      - One idea per paragraph; blank space between items and between bullets.
       - Motivation: short readable prose (2–4 paragraphs), not a long essay reprint.
-      - Tool Updates in email: one-line technical bullets, then one shared layman’s
-        takeaway paragraph for the set.
+      - Tool Updates in email: one-line technical bullets for **new** ships only, then one
+        shared layman’s takeaway paragraph for the set.
+      - Other Interest Reading: short bullets only; no run-on paragraphs; no full Needs My Eyes dump.
+      - Aim for roughly half the length of a dense wall-of-text dump — if it scrolls like an inbox, cut.
       - Use a smaller base font everywhere (body and headings scale together).
         Prefer ~13px body / ~14px section titles (not 16px/18px).
       - No code fences, no raw `**bold**` markers, no `#` characters in the email.
@@ -182,6 +193,9 @@ Same five sections and content as the archive, rendered as HTML email:
 
 - Human-readable date line (no task metadata)
 - Smaller uniform type (~13px body / ~14px headings)
-- Tool Updates: technical one-liners + one shared layman’s takeaway
+- Tool Updates: technical one-liners for new ships + one shared layman’s takeaway
 - Motivation: short distill (not a long essay)
+- Other Interest Reading: brief time-sensitive bullets only
+- Needs My Eyes: count + ≤5 critical items (never a laundry list)
 - No markdown syntax in the message body
+- Scannable length — one morning read, not a second inbox

@@ -6,6 +6,14 @@ Only the Weekly Consolidation Agent may permanently modify this file.
 
 ---
 
+## Purpose
+
+This email **is** the morning briefing. One scannable read should replace hunting the inbox.
+
+Prefer less. If a section feels like a second inbox, cut it.
+
+---
+
 ## Standing Interests
 
 ### Podcasts
@@ -17,7 +25,7 @@ Include:
 • similar podcast newsletters
 
 Return:
-One sentence per episode.
+One sentence per new episode. Metrics only when the number changed overnight.
 
 ---
 
@@ -37,30 +45,11 @@ Priority:
 
 Return:
 
-• One technical sentence per update (what shipped / changed).
+• One technical sentence per **new** overnight ship (what changed).
+• Skip tools with nothing new. Do not restate “still stands” catalogs.
+• Once for the whole set: a short layman’s paragraph tying updates to my world.
 
-Then, once for the whole set (not per item):
-
-• A short layman’s paragraph: how these updates connect to my world
-  (analytics engineering, clinical AI, creator tooling, or adjacent work),
-  how they connect to each other, or one idea worth taking from them.
-
-Keep Tool Updates tight. No multi-paragraph write-ups per product.
-
-Downgrade to Other Interest Reading if no actionable takeaway exists.
-
-Always include:
-
-• analytics engineering
-• dbt
-• warehouses
-• pipelines
-• NLP
-• clinical AI
-• creator economy tooling
-• Dossier competitors
-
-Always flag:
+Always flag when present on a **new** item:
 
 • pricing changes
 • API changes
@@ -68,6 +57,15 @@ Always flag:
 • new permissions
 • data-sharing defaults
 • privacy changes
+
+Always watch (surface only if something new landed):
+
+• analytics engineering / dbt / warehouses / pipelines
+• NLP / clinical AI
+• creator economy tooling
+• Dossier competitors
+
+Downgrade to Other Interest Reading if no actionable takeaway exists.
 
 ---
 
@@ -107,15 +105,16 @@ do not reprint or heavily paraphrase the whole essay.
 Label:
 Other Interest Reading
 
-Include:
+Include only what is **new or time-sensitive** (today / tomorrow / this-week deadlines):
 
 • McKinsey Perspectives
+• consulting / finance notes
+• calendar items that need a decision or attendance soon
+• one-line status on PausePoint / creator metrics **only if numbers moved**
 
-• consulting
+Only brief summaries. One short bullet per item.
 
-• finance
-
-Only brief summaries.
+Never dump the full inbox here. Never repeat Podcasts or Tool Updates content.
 
 ---
 
@@ -127,6 +126,8 @@ Send HTML — not a raw markdown file.
 • No `#` headings or markdown syntax in the message body
 • Smaller uniform type everywhere (body and headings scale together):
   ~13px body / ~14px section titles
+• Extra blank space between sections; one idea per paragraph or bullet
+• Target a phone-screen skim: roughly half the length of a dense Sep-2026 dump
 
 ---
 
@@ -149,5 +150,7 @@ Never:
 • label
 
 Leave untouched.
+
+In the briefing: one short line — count of threads left untouched, plus at most 3–5 **security / money / login** items that need eyes today. Do not paste the full laundry list.
 
 Everything else may be organized automatically.
