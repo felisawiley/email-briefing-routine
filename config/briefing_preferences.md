@@ -21,8 +21,12 @@ Label: Podcasts
 
 Include:
 • Startups Decoded
+• similar podcast newsletters (not PausePoint / Architect of Calm)
+
+Exclude:
 • PausePoint
-• similar podcast newsletters
+• Architect of Calm
+• PausePoint / AOC metrics, guests, Stripe payouts, or show ops
 
 Return:
 One sentence per new episode. Metrics only when the number changed overnight.
@@ -116,11 +120,11 @@ Include only what is **new or time-sensitive** (today / tomorrow / this-week dea
 • McKinsey Perspectives
 • consulting / finance notes
 • calendar items that need a decision or attendance soon
-• one-line status on PausePoint / creator metrics **only if numbers moved**
 
 Only brief summaries. One short bullet per item.
 
 Never dump the full inbox here. Never repeat Podcasts or Tool Updates content.
+Never include PausePoint / Architect of Calm (show, metrics, guests, or payouts).
 
 ---
 

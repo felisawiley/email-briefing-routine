@@ -71,10 +71,12 @@ This job runs with nobody watching. Finish end-to-end.
 
    - This email **is** the briefing — keep it scannable on a phone.
    - Prefer less. Cut “still stands” catalogs, cross-section duplicates, and inbox dumps.
-   - Podcasts: one sentence per **new** episode; metrics only if numbers changed.
+   - Podcasts: one sentence per **new** episode; metrics only if numbers changed;
+     never PausePoint / Architect of Calm.
    - Tool Updates: strategist-level — which tool/LLM for what; one plain sentence per
      **new** ship; no API IDs, token prices, bandwidth, CLI flags, or eng how-to.
-   - Other Interest Reading: only new or time-sensitive items; one short bullet each.
+   - Other Interest Reading: only new or time-sensitive items; one short bullet each;
+     never PausePoint / AOC.
    - Needs My Eyes: count + at most 3–5 security/money/login items — never the full list.
 
 7. Save briefing to

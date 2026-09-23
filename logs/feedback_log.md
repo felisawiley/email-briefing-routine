@@ -22,3 +22,9 @@ Cut density: drop “still stands” catalogs, stop repeating Podcasts/Tool Upda
 Tool Updates should be higher level. Reader is a data strategist: need to know which LLM to use for what, not highly technical detail (API IDs, token prices, bandwidth, CLI flags, eng how-to). Plain “what it is / when you’d use it” only.
 
 ---
+
+2026-09-23
+
+Do not include PausePoint / Architect of Calm (AOC) — no episodes, metrics, guests, payouts, or show ops in Podcasts or Other Interest Reading.
+
+---
