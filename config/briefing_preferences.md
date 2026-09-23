@@ -13,6 +13,7 @@ This email **is** the morning briefing. One scannable read should replace huntin
 Prefer less. If a section feels like a second inbox, cut it.
 
 Do **not** include World News.
+Do **not** include calendar or schedule items.
 
 
 ---
@@ -105,16 +106,16 @@ do not reprint or heavily paraphrase the whole essay.
 Label:
 Other Interest Reading
 
-Include only what is **new or time-sensitive** (today / tomorrow / this-week deadlines):
+Include only what is **new or time-sensitive** and worth a brief note:
 
 • McKinsey Perspectives
 • consulting / finance notes
-• calendar items that need a decision or attendance soon
 
 Only brief summaries. One short bullet per item.
 
 Never dump the full inbox here. Never repeat Podcasts or Tool Updates content.
 Never include PausePoint / Architect of Calm (show, metrics, guests, or payouts).
+Never include calendar, schedule, meetings, webinars, office hours, or “today / tomorrow / this week” event lists.
 
 ---
 

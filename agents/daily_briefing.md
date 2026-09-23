@@ -76,8 +76,8 @@ This job runs with nobody watching. Finish end-to-end.
      never PausePoint / Architect of Calm.
    - Tool Updates: strategist-level — which tool/LLM for what; one plain sentence per
      **new** ship; no API IDs, token prices, bandwidth, CLI flags, or eng how-to.
-   - Other Interest Reading: only new or time-sensitive items; one short bullet each;
-     never PausePoint / AOC.
+   - Other Interest Reading: only new reading/notes worth a brief bullet;
+     never PausePoint / AOC; never calendar, meetings, or event lists.
    - Needs My Eyes: count + at most 3–5 security/money/login items — never the full list.
 
 7. Save briefing to
@@ -117,8 +117,10 @@ This job runs with nobody watching. Finish end-to-end.
       - Motivation: short readable prose (2–4 paragraphs), not a long essay reprint.
       - Tool Updates in email: one plain “use it when…” bullet per **new** ship only, then
         one shared takeaway on which to pick; never API/pricing/bandwidth specs.
-      - Other Interest Reading: short bullets only; no run-on paragraphs; no full Needs My Eyes dump.
+      - Other Interest Reading: short bullets only; no run-on paragraphs; no full Needs My Eyes dump;
+        no calendar / schedule / meeting lists.
       - No World News section.
+      - No calendar section or “today / tomorrow / this week” event blocks.
       - Aim for roughly half the length of a dense wall-of-text dump — if it scrolls like an inbox, cut.
       - Use a smaller base font everywhere (body and headings scale together).
         Prefer ~13px body / ~14px section titles (not 16px/18px).
@@ -193,8 +195,9 @@ Same four sections and content as the archive, rendered as HTML email:
 - Smaller uniform type (~13px body / ~14px headings)
 - Tool Updates: strategist-level “which LLM/tool for what” bullets + one shared takeaway (no API/token/bandwidth specs)
 - Motivation: short distill (not a long essay)
-- Other Interest Reading: brief time-sensitive bullets only
+- Other Interest Reading: brief reading/notes bullets only (no calendar)
 - No World News
+- No calendar / schedule / meeting lists
 - Needs My Eyes: count + ≤5 critical items (never a laundry list)
 - No markdown syntax in the message body
 - Scannable length — one morning read, not a second inbox
