@@ -95,6 +95,7 @@ This job runs with nobody watching. Finish end-to-end.
    - [ ] Under caps above
 
    If any check fails, cut until it passes. Prefer omit over compress-into-jargon.
+
 7. Save briefing to
 
    `/briefings/YYYY-MM-DD.md`
