@@ -75,7 +75,8 @@ This job runs with nobody watching. Finish end-to-end.
    - Podcasts: one sentence per **new** episode; metrics only if numbers changed;
      never PausePoint / Architect of Calm.
    - Tool Updates: strategist-level — which tool/LLM for what; one plain sentence per
-     **new** ship; no API IDs, token prices, bandwidth, CLI flags, or eng how-to.
+     **new** ship; no API IDs, token prices, bandwidth, CLI/eng how-to, or trailing
+     flag tags (Pricing / Privacy / API change).
    - Other Interest Reading: only new reading/notes worth a brief bullet;
      never PausePoint / AOC; never calendar, meetings, or event lists.
    - Needs My Eyes: count + at most 3–5 security/money/login items — never the full list.
@@ -116,7 +117,8 @@ This job runs with nobody watching. Finish end-to-end.
       - One idea per paragraph; blank space between items and between bullets.
       - Motivation: short readable prose (2–4 paragraphs), not a long essay reprint.
       - Tool Updates in email: one plain “use it when…” bullet per **new** ship only, then
-        one shared takeaway on which to pick; never API/pricing/bandwidth specs.
+        one shared takeaway on which to pick; never API/pricing/bandwidth specs or
+        trailing flag labels.
       - Other Interest Reading: short bullets only; no run-on paragraphs; no full Needs My Eyes dump;
         no calendar / schedule / meeting lists.
       - No World News section.
@@ -193,11 +195,12 @@ Same four sections and content as the archive, rendered as HTML email:
 
 - Human-readable date line (no task metadata)
 - Smaller uniform type (~13px body / ~14px headings)
-- Tool Updates: strategist-level “which LLM/tool for what” bullets + one shared takeaway (no API/token/bandwidth specs)
+- Tool Updates: strategist-level “which LLM/tool for what” bullets + one shared takeaway (no API/token/bandwidth specs; no flag tags)
 - Motivation: short distill (not a long essay)
 - Other Interest Reading: brief reading/notes bullets only (no calendar)
 - No World News
 - No calendar / schedule / meeting lists
+- No flag labels (Pricing / Privacy / API change tags)
 - Needs My Eyes: count + ≤5 critical items (never a laundry list)
 - No markdown syntax in the message body
 - Scannable length — one morning read, not a second inbox

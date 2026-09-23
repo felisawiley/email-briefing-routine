@@ -14,6 +14,8 @@ Prefer less. If a section feels like a second inbox, cut it.
 
 Do **not** include World News.
 Do **not** include calendar or schedule items.
+Do **not** include flag labels (Pricing / Privacy / API change tags, etc.).
+
 
 
 ---
@@ -65,12 +67,9 @@ Never include:
 • API IDs, endpoints, parameter names, or migration/breaking-change checklists
 • token prices, cache tiers, bandwidth, latency percentiles, or throughput detail
 • CLI flags, config keys, or engineering how-to
+• trailing status tags / “flags” (e.g. “Pricing.”, “Privacy change.”, “API change.”, “data-sharing”)
 
-Do flag (one plain phrase, not a spec sheet) when it changes a decision:
-
-• big pricing shifts (“cheaper for long jobs”, “default model costs more”)
-• new permissions / data-sharing / privacy defaults
-• licensing that blocks a use case
+If a pricing or privacy shift matters to which tool you’d pick, say it in plain words inside the sentence — do not append a flag label.
 
 Always watch (surface only if something new landed, still high level):
 
