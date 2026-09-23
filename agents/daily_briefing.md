@@ -79,7 +79,7 @@ This job runs with nobody watching. Finish end-to-end.
      flag tags (Pricing / Privacy / API change).
    - Other Interest Reading: only new reading/notes worth a brief bullet;
      never PausePoint / AOC; never calendar, meetings, or event lists.
-   - Needs My Eyes: count + at most 3–5 security/money/login items — never the full list.
+   - Never include Needs My Eyes (no count, list, or mention).
 
 7. Save briefing to
 
@@ -119,10 +119,11 @@ This job runs with nobody watching. Finish end-to-end.
       - Tool Updates in email: one plain “use it when…” bullet per **new** ship only, then
         one shared takeaway on which to pick; never API/pricing/bandwidth specs or
         trailing flag labels.
-      - Other Interest Reading: short bullets only; no run-on paragraphs; no full Needs My Eyes dump;
-        no calendar / schedule / meeting lists.
+      - Other Interest Reading: short bullets only; no run-on paragraphs;
+        no calendar / schedule / meeting lists; no Needs My Eyes.
       - No World News section.
       - No calendar section or “today / tomorrow / this week” event blocks.
+      - No Needs My Eyes section or mention.
       - Aim for roughly half the length of a dense wall-of-text dump — if it scrolls like an inbox, cut.
       - Use a smaller base font everywhere (body and headings scale together).
         Prefer ~13px body / ~14px section titles (not 16px/18px).
@@ -201,6 +202,6 @@ Same four sections and content as the archive, rendered as HTML email:
 - No World News
 - No calendar / schedule / meeting lists
 - No flag labels (Pricing / Privacy / API change tags)
-- Needs My Eyes: count + ≤5 critical items (never a laundry list)
+- No Needs My Eyes (leave those emails untouched in the inbox; never mention them in the briefing)
 - No markdown syntax in the message body
 - Scannable length — one morning read, not a second inbox

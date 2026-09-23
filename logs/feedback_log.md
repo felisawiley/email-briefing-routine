@@ -46,3 +46,9 @@ Nothing about my calendar — no schedule, meetings, webinars, office hours, or 
 Nothing about my calendar and nothing about flags — no calendar/schedule content, and no trailing flag tags (Pricing / Privacy / API change / data-sharing labels on bullets).
 
 ---
+
+2026-09-23
+
+Remove Needs My Eyes from the briefing entirely — do not count, list, or mention those threads. Still leave them untouched in the inbox.
+
+---

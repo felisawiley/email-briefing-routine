@@ -139,7 +139,7 @@ Send HTML — not a raw markdown file.
 
 ## Rules
 
-Needs My Eyes
+Needs My Eyes (inbox only — **never** put in the briefing)
 
 Never:
 
@@ -151,6 +151,6 @@ Never:
 
 Leave untouched.
 
-In the briefing: one short line — count of threads left untouched, plus at most 3–5 **security / money / login** items that need eyes today. Do not paste the full laundry list.
+Do **not** summarize, list, count, or mention Needs My Eyes threads in the briefing.
 
 Everything else may be organized automatically.
