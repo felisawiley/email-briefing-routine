@@ -6,6 +6,52 @@ Only the Weekly Consolidation Agent may permanently modify this file.
 
 ---
 
+## Purpose
+
+This email **is** the morning briefing. One scannable read should replace hunting the inbox.
+
+Prefer less. If a section feels like a second inbox, cut it.
+
+Do **not** include World News.
+Do **not** include calendar or schedule items.
+Do **not** include flag labels (Pricing / Privacy / API change tags, etc.).
+Do **not** include Needs My Eyes in the briefing.
+
+---
+
+## Anti–scope creep (hard)
+
+Closed briefing. Only these four sections exist. Do not invent a fifth.
+
+**Allowlist only.** If an inbox item does not clearly fit Podcasts, Tool Updates,
+Motivation, or Other Interest Reading (McKinsey / consulting / finance notes),
+**omit it from the briefing.** Organizing the inbox is not the same as briefing it.
+
+**Caps (enforce before send):**
+
+• Podcasts: ≤3 sentences total
+• Tool Updates: ≤5 new-ship bullets + 1 short takeaway paragraph (≤80 words)
+• Motivation: ≤250 words
+• Other Interest Reading: ≤5 short bullets
+• Whole archive: aim ≤6,000 characters; if over, cut OIR and Tool Updates first
+
+**Banned in the briefing (cut on sight):**
+
+• World News / AP wires
+• Calendar, schedule, meetings, webinars, “today / tomorrow / this week”
+• Needs My Eyes (any mention)
+• PausePoint / Architect of Calm
+• “still stands” standing catalogs
+• Trailing flag tags (Pricing / Privacy / API change / data-sharing)
+• Cross-section duplicates
+
+**Do not copy density from prior `briefings/` archives.** Section names only —
+yesterday’s dump is not a template.
+
+Default when unsure: **leave it out.**
+
+---
+
 ## Standing Interests
 
 ### Podcasts
@@ -13,17 +59,23 @@ Label: Podcasts
 
 Include:
 • Startups Decoded
+• similar podcast newsletters (not PausePoint / Architect of Calm)
+
+Exclude:
 • PausePoint
-• similar podcast newsletters
+• Architect of Calm
+• PausePoint / AOC metrics, guests, Stripe payouts, or show ops
 
 Return:
-One sentence per episode.
+One sentence per new episode. Metrics only when the number changed overnight.
 
 ---
 
 ### Tool Updates
 
 Label: Tool Updates
+
+Audience: data strategist — understand the landscape, not implement APIs.
 
 Priority:
 
@@ -35,52 +87,31 @@ Priority:
 • MotherDuck
 • Health2Tech
 
-Return:
+Return (high level only):
 
-• One technical sentence per update (what shipped / changed).
+• One plain sentence per **new** overnight ship: what it is and **when you’d use it** (which LLM / tool for what).
+• Skip tools with nothing new. Do not restate “still stands” catalogs.
+• Once for the whole set: a short paragraph on how these fit together for my work
+  (analytics strategy, clinical AI, creator tooling) — which to pick, which to ignore.
 
-Then, once for the whole set (not per item):
+Never include:
 
-• A short layman’s paragraph: how these updates connect to my world
-  (analytics engineering, clinical AI, creator tooling, or adjacent work),
-  how they connect to each other, or one idea worth taking from them.
+• API IDs, endpoints, parameter names, or migration/breaking-change checklists
+• token prices, cache tiers, bandwidth, latency percentiles, or throughput detail
+• CLI flags, config keys, or engineering how-to
+• trailing status tags / “flags” (e.g. “Pricing.”, “Privacy change.”, “API change.”, “data-sharing”)
 
-Keep Tool Updates tight. No multi-paragraph write-ups per product.
+If a pricing or privacy shift matters to which tool you’d pick, say it in plain words inside the sentence — do not append a flag label.
 
-Downgrade to Other Interest Reading if no actionable takeaway exists.
+Always watch (surface only if something new landed, still high level):
 
-Always include:
-
-• analytics engineering
-• dbt
-• warehouses
-• pipelines
-• NLP
-• clinical AI
+• analytics engineering / dbt / warehouses / pipelines
+• NLP / clinical AI
 • creator economy tooling
 • Dossier competitors
 
-Always flag:
-
-• pricing changes
-• API changes
-• licensing
-• new permissions
-• data-sharing defaults
-• privacy changes
-
----
-
-### World News
-
-Label: World News
-
-Return:
-
-3–5 AP-style summaries.
-
-If a trusted news digest exists in the inbox,
-use that instead of searching.
+Downgrade to Other Interest Reading only if it is McKinsey / consulting / finance
+reading with a brief takeaway — otherwise omit.
 
 ---
 
@@ -107,15 +138,16 @@ do not reprint or heavily paraphrase the whole essay.
 Label:
 Other Interest Reading
 
-Include:
+Include only what is **new or time-sensitive** and worth a brief note:
 
 • McKinsey Perspectives
+• consulting / finance notes
 
-• consulting
+Only brief summaries. One short bullet per item.
 
-• finance
-
-Only brief summaries.
+Never dump the full inbox here. Never repeat Podcasts or Tool Updates content.
+Never include PausePoint / Architect of Calm (show, metrics, guests, or payouts).
+Never include calendar, schedule, meetings, webinars, office hours, or “today / tomorrow / this week” event lists.
 
 ---
 
@@ -127,6 +159,8 @@ Send HTML — not a raw markdown file.
 • No `#` headings or markdown syntax in the message body
 • Smaller uniform type everywhere (body and headings scale together):
   ~13px body / ~14px section titles
+• Extra blank space between sections; one idea per paragraph or bullet
+• Target a phone-screen skim: roughly half the length of a dense Sep-2026 dump
 
 ---
 
@@ -138,7 +172,7 @@ Send HTML — not a raw markdown file.
 
 ## Rules
 
-Needs My Eyes
+Needs My Eyes (inbox only — **never** put in the briefing)
 
 Never:
 
@@ -149,5 +183,7 @@ Never:
 • label
 
 Leave untouched.
+
+Do **not** summarize, list, count, or mention Needs My Eyes threads in the briefing.
 
 Everything else may be organized automatically.

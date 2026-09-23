@@ -16,6 +16,6 @@ agents/
     weekly_consolidation.md   ← learning agent (rewrites config)
 ```
 
-**Daily Briefing Agent** reads preferences, builds the briefing, archives it, commits/pushes, emails when available, and appends raw feedback. It never rewrites preferences.
+**Daily Briefing Agent** reads preferences, builds the briefing, archives it, commits/pushes, emails when available, and appends raw feedback. It never rewrites preferences. Non-allowlist inbox leftovers are omitted (organizing ≠ briefing). Pre-send checklist enforces caps and bans.
 
-**Weekly Consolidation Agent** is the only writer of `config/briefing_preferences.md`. It consumes the feedback log, applies permanent changes (newest wins), and clears resolved feedback.
+**Weekly Consolidation Agent** is the only writer of `config/briefing_preferences.md`. It consumes the feedback log **and** audits recent briefings for scope creep, applies permanent changes (newest wins), and clears resolved feedback.

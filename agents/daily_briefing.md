@@ -53,19 +53,48 @@ This job runs with nobody watching. Finish end-to-end.
    - move
    - label
 
-4. Categorize everything else using the configuration.
+4. Categorize for **inbox handling** using the configuration.
 
-5. If a section requires current news, perform web search.
+   Only a small subset becomes briefing content. Leftovers that do not match the
+   allowlist are omitted from the briefing (they may still be organized).
+
+5. If a section requires current material that is allowed, search web if needed.
+   Do **not** search for World News.
 
 6. Generate Markdown briefing.
 
-   Required sections:
+   Required sections (and **only** these):
 
    - `# Podcasts`
    - `# Tool Updates`
-   - `# World News`
    - `# Motivation`
    - `# Other Interest Reading`
+
+   Read `Anti–scope creep (hard)` in preferences and obey caps + bans.
+
+   Density / anti-creep (hard):
+
+   - This email **is** the briefing — keep it scannable on a phone.
+   - Closed allowlist: omit anything that does not fit; do not invent sections.
+   - Do **not** use prior `briefings/` files as a density or content template.
+   - Podcasts: ≤3 sentences; never PausePoint / Architect of Calm.
+   - Tool Updates: ≤5 strategist-level “use when…” bullets + ≤80-word takeaway;
+     no API/token/bandwidth specs; no trailing flag tags; no “still stands.”
+   - Motivation: ≤250 words.
+   - Other Interest Reading: ≤5 short McKinsey/consulting/finance bullets;
+     never calendar, PausePoint/AOC, or Needs My Eyes.
+   - Whole archive ≤ ~6,000 characters; cut OIR then Tool Updates if over.
+   - Never include World News or Needs My Eyes.
+
+6b. Pre-send self-check (must pass before save/email):
+
+   - [ ] Only the four allowed section headings
+   - [ ] No calendar / today-tomorrow-this-week / webinar lists
+   - [ ] No Needs My Eyes / PausePoint / AOC / World News
+   - [ ] No “still stands” catalogs or Pricing/Privacy/API flag tags
+   - [ ] Under caps above
+
+   If any check fails, cut until it passes. Prefer omit over compress-into-jargon.
 
 7. Save briefing to
 
@@ -97,13 +126,20 @@ This job runs with nobody watching. Finish end-to-end.
     - Convert the briefing into HTML with this structure:
 
       - Top line: date only (e.g. `Wednesday, August 5, 2026`) — no “Task:” metadata.
-      - Five sections, in order, each separated by clear vertical space (or a light horizontal rule).
+      - Four sections, in order, each separated by clear vertical space (or a light horizontal rule).
       - Section titles as plain bold headings (`Podcasts`, `Tool Updates`, etc.) — not markdown `#`.
       - Body copy as short paragraphs or simple bullets (`<p>`, `<ul><li>`).
-      - One idea per paragraph; blank space between items.
+      - One idea per paragraph; blank space between items and between bullets.
       - Motivation: short readable prose (2–4 paragraphs), not a long essay reprint.
-      - Tool Updates in email: one-line technical bullets, then one shared layman’s
-        takeaway paragraph for the set.
+      - Tool Updates in email: one plain “use it when…” bullet per **new** ship only, then
+        one shared takeaway on which to pick; never API/pricing/bandwidth specs or
+        trailing flag labels.
+      - Other Interest Reading: short bullets only; no run-on paragraphs;
+        no calendar / schedule / meeting lists; no Needs My Eyes.
+      - No World News section.
+      - No calendar section or “today / tomorrow / this week” event blocks.
+      - No Needs My Eyes section or mention.
+      - Aim for roughly half the length of a dense wall-of-text dump — if it scrolls like an inbox, cut.
       - Use a smaller base font everywhere (body and headings scale together).
         Prefer ~13px body / ~14px section titles (not 16px/18px).
       - No code fences, no raw `**bold**` markers, no `#` characters in the email.
@@ -119,12 +155,9 @@ This job runs with nobody watching. Finish end-to-end.
 
       <h2 style="font-size: 14px; margin: 20px 0 8px;">Tool Updates</h2>
       <ul style="font-size: 13px; margin: 0 0 10px; padding-left: 18px;">
-        <li><strong>Product:</strong> One technical sentence.</li>
+        <li><strong>Product:</strong> What it is and when you’d use it (no API/pricing specs).</li>
       </ul>
-      <p style="font-size: 13px; margin: 0 0 8px;"><em>In plain terms:</em> how these connect to my world / each other / one idea to take.</p>
-
-      <h2 style="font-size: 14px; margin: 20px 0 8px;">World News</h2>
-      <p style="font-size: 13px; margin: 0 0 8px;">…</p>
+      <p style="font-size: 13px; margin: 0 0 8px;"><em>In plain terms:</em> which to pick for my work / which to ignore.</p>
 
       <h2 style="font-size: 14px; margin: 20px 0 8px;">Motivation</h2>
       <p style="font-size: 13px; margin: 0 0 8px;">…</p>
@@ -165,10 +198,6 @@ Then:
 
 ...
 
-# World News
-
-...
-
 # Motivation
 
 ...
@@ -178,10 +207,17 @@ Then:
 
 ## Output Contract (email — HTML)
 
-Same five sections and content as the archive, rendered as HTML email:
+Same four sections and content as the archive, rendered as HTML email:
 
 - Human-readable date line (no task metadata)
 - Smaller uniform type (~13px body / ~14px headings)
-- Tool Updates: technical one-liners + one shared layman’s takeaway
+- Tool Updates: strategist-level “which LLM/tool for what” bullets + one shared takeaway (no API/token/bandwidth specs; no flag tags)
 - Motivation: short distill (not a long essay)
+- Other Interest Reading: brief reading/notes bullets only (no calendar)
+- No World News
+- No calendar / schedule / meeting lists
+- No flag labels (Pricing / Privacy / API change tags)
+- No Needs My Eyes (leave those emails untouched in the inbox; never mention them in the briefing)
+- Obey Anti–scope creep caps; omit non-allowlist inbox leftovers
 - No markdown syntax in the message body
+- Scannable length — one morning read, not a second inbox
