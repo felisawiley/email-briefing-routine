@@ -37,16 +37,20 @@ Motivation, or Other Interest Reading (McKinsey / consulting / finance notes),
 
 **Banned in the briefing (cut on sight):**
 
+• Any heading other than Podcasts, Tool Updates, Motivation, Other Interest Reading
+  (no World News, no Needs My Eyes, no fifth section)
 • World News / AP wires
 • Calendar, schedule, meetings, webinars, “today / tomorrow / this week”
+  (Motivation included — never name today’s calls or events)
 • Needs My Eyes (any mention)
 • PausePoint / Architect of Calm
-• “still stands” standing catalogs
+• “still stands” / “still the latest” leftover catalogs or old-episode recaps
 • Trailing flag tags (Pricing / Privacy / API change / data-sharing)
-• Cross-section duplicates
+• Cross-section duplicates (do not retell the same podcast note in Motivation)
 
-**Do not copy density from prior `briefings/` archives.** Section names only —
-yesterday’s dump is not a template.
+**Do not copy density from prior `briefings/` archives.** Section names only.
+Archives over ~6,000 characters, or any file with World News / calendar blocks /
+Needs My Eyes, are anti-templates — match the short four-section shape, not those dumps.
 
 Default when unsure: **leave it out.**
 
@@ -67,7 +71,9 @@ Exclude:
 • PausePoint / AOC metrics, guests, Stripe payouts, or show ops
 
 Return:
-One sentence per new episode. Metrics only when the number changed overnight.
+One sentence per **new** episode. If nothing new shipped, one sentence that says so
+and stop — do not recap last week’s episode or write “still the latest.”
+Metrics only when the number changed overnight.
 
 ---
 
@@ -130,6 +136,7 @@ Write as something meant to be read, not skimmed.
 Keep short: about half a page max — roughly 2–4 short paragraphs
 (or ~150–250 words). Distill Nick Maggiulli / Friday Forward pieces;
 do not reprint or heavily paraphrase the whole essay.
+Do not retell a note already in Podcasts. Do not name today’s meetings.
 
 ---
 
@@ -166,7 +173,11 @@ Send HTML — not a raw markdown file.
 
 ## Sender Overrides
 
-(empty)
+Omit from the briefing (inbox handling unchanged):
+
+• AP Morning Wire / AP Afternoon Wire — never a World News section
+• PausePoint / Architect of Calm / Buzzsprout (PausePoint) / Stripe PausePoint payouts
+• Calendar, webinar, office-hours, TidyCal, and “today / tomorrow / this week” event mail
 
 ---
 
